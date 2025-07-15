@@ -1,11 +1,13 @@
+
 import java.util.Scanner;
 
 class ConsecutiveAndDouble {
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word: ");
         String word = sc.nextLine().toUpperCase();
-
+        sc.close();
         int consecutive = 0, doubleSeq = 0;
 
         for (int i = 0; i < word.length() - 1; i++) {
@@ -25,7 +27,6 @@ class ConsecutiveAndDouble {
         System.out.println("Number of double letter sequence = " + doubleSeq);
 
         // Necessary to Ignore Warning in Java
-
         sc.close();
     }
 }
