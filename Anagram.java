@@ -43,6 +43,7 @@ class Anagram {
         } else {
             System.out.println("The words are NOT anagrams.");
         }
-
+        
     }
+    
 }
