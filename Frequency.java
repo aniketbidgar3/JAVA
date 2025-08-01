@@ -5,6 +5,7 @@ public class Frequency {
 
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
+        System.out.print("Enter Sting : ");
         String s = in.nextLine();
         String ans = "";
         int upper = 0, lower = 0;

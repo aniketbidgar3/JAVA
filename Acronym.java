@@ -8,8 +8,8 @@ public class Acronym {
         System.out.print("Enter Sting : ");
         String s = in.nextLine();
         s = s.toUpperCase();
-        String ans = "";
-        ans = s.charAt(0) + ".";
+        String ans = s.charAt(0) + ".";
+
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == ' ') {
                 ans = ans + s.charAt(i + 1) + ".";
