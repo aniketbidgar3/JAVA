@@ -94,12 +94,13 @@ public class BankSystem {
                         break;
                     default:
                         System.out.println("Invalid Choice");
+                        break;
                 }
             } while (choice != 4);
         } else {
             System.out.println("Wrong PIN!");
         }
 
-        sc.close();
+        // sc.close();
     }
 }
