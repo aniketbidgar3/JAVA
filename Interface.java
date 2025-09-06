@@ -24,7 +24,7 @@ class child implements mother, father {
     }
 }
 
-public class Hello {
+public class Interface {
 
     public static void main(String args[]) {
         child c = new child();
